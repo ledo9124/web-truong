@@ -1,0 +1,27 @@
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .sub-content .img-action ,
+    .main-content .box-action {
+        flex-direction: column;
+    }
+}
+
+/* >= Tablet */
+@media (max-width: 740px) {
+    .sub-content {
+        margin-left: 0;
+    }
+    .main-content .box-action {
+        flex-direction: column;
+    }
+}
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {    
+
+}
+
+/* > PC low resolution  */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    
+}

@@ -1,0 +1,20 @@
+
+.introdue h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    color: #0085b1;
+}
+
+.content .introdue .box-introdue p {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.introdue .img-introdue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

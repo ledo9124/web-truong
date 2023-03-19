@@ -1,0 +1,52 @@
+.main-content .gopy {
+    padding: 16px;
+}
+
+.gopy p {
+    text-align: center;
+    padding: 8px;
+}
+
+.gopy .input-row1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-row1 input {
+    flex: 1;
+    min-width: 36px;
+    min-height: 36px;
+    border-radius: 8px;
+    margin: 8px;
+    border: 1px solid #ccc;
+}
+
+.input-row2 {
+    display: flex;
+    margin: 8px;
+}
+
+.input-row2 textarea {
+    flex: 1;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.gopy .button-row3 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-row3 button {
+    margin: 8px;
+    width: 60px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+.button-row3 button:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}

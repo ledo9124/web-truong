@@ -1,0 +1,50 @@
+.contact h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 0;
+    color: #0085b1;
+}
+
+.contact {
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+.box-address {
+    display: flex;
+}
+
+.box-message {
+    display: flex;
+    padding: 8px;
+}
+
+.box-message p {
+    flex: 1;
+}
+
+.box-message textarea ,
+.box-message input {
+    flex: 3;
+}
+
+.box-message input {
+    height: 36px;
+}
+
+.contact button:hover ,
+.box-message input:hover {
+    border: 1px solid #0085b1;
+    box-shadow: 0 0 8px #0085b1;
+}
+
+.contact button {
+    min-width: 150px;
+    min-height: 40px;
+    border-radius: 8px;
+    background-color: #fa6900;
+    color: #fff;
+    font-size: 16px;
+    border: #fa6900;
+    cursor: pointer;
+}
